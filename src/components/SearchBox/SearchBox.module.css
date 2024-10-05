@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 48px;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.input {
+  width: 360px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  outline: #5d3f8a;
+  font-size: 18px;
+}
+
+.input:focus {
+  border-color: #5d3f8a;
+}
